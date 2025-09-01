@@ -1,4 +1,4 @@
-const apiKey = 'ee2778900d5890005203a6a4c9645c16'; // Replace with your OpenWeatherMap API key
+const apiKey = 'ee2778900d5890005203a'; // Replace with your OpenWeatherMap API key
 const cityInput = document.getElementById('cityInput');
 const searchButton = document.getElementById('searchButton');
 const dayName = document.getElementById('dayName');
@@ -95,40 +95,6 @@ function changeBackground(weatherCondition) {
   weatherToday.style.backgroundPosition = 'center';
 
 }
-
-// const searchbox = document.querySelector(".search input");
-// const searchbtn = document.querySelector(".search button");
-// // const weathericon = document.querySelector(".weather-icon");
-
-// async function checkWeather(city) {
-//     const response = await fetch(apiurl + city + `&appid=${apikey}`)
-
-//         if(response.status == 404){
-//             document.querySelector(".error").style.display ="block";
-//             document.querySelector(".weather").style.display ="none";
-//         }else{
-//             var data = await response.json();
-//         }
-//     console.log(data);
-
-//     document.querySelector(".city").innerHTML = data.name;
-//     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
-//     document.querySelector(".humadity").innerHTML = data.main.humidity + "%";
-//     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
-
-//     // if(data.weather[0].main == clouds){
-//     //     weathericon.src ="photos/6198743.png";
-
-//     // }else if(data.weather[0].main == clouds){
-//     //     weathericon.src ="photos/images(1).png";
-
-//     // }
-//     document.querySelector(".weather").style.display ="none";
-//     document.querySelector(".error").style.display ="block";  
-// }
-
-// searchbtn.addEventListener("click", ()=>{
-//     checkWeather(searchbox.value);
-// })
+ })
 
 
