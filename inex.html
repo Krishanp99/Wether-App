@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+      <div class="weather-container">
+
+        <!-- Left Section -->
+
+        <div class="weather-today">
+          <!-- <img src="back photo/sunny.jpg"> -->
+          <h1 id="dayName">Monday</h1>
+          <p id="date">18 September 2023</p>
+          <div class="weather-icon">
+            <img id="todayIcon" src="photo icon/cloudy.png" alt="Weather Icon">
+          </div>
+          <h2 id="currentTemp">31°C</h2>
+          <p id="currentCondition">Few Clouds</p>
+        </div>
+    
+        <!-- Right Section -->
+        <div class="weather-details">
+          <div class="search-bar">
+            <input type="text" placeholder="Search a location" id="cityInput">
+            <button id="searchButton">Search</button>
+          </div>
+          <div class="current-details">
+            <p><strong>NAME:</strong> <span id="cityName">Colombo</span></p>
+            <p><strong>TEMP:</strong> <span id="temperature">28°C</span></p>
+            <p><strong>HUMIDITY:</strong> <span id="humidity">68%</span></p>
+            <p><strong>WIND SPEED:</strong> <span id="windSpeed">1.66 km/h</span></p>
+          </div>
+          <div class="weekly-forecast">
+            <div class="day">
+              <p>Thu</p>
+              <img src="photo icon/clouds.png" >
+              <p>29°C</p>
+            </div>
+            <div class="day">
+              <p>Wed</p>
+              <img src="photo icon/cloudy.png" >
+              <p>30°C</p>
+            </div>
+            <div class="day">
+              <p>Tue</p>
+              <img src="photo icon/cloudy.png" >
+              <p>30°C</p>
+            </div>
+            <div class="day current">
+              <p>Mon</p>
+              <img src="photo icon/sun.png" >
+              <p>32°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+</body>
+</html>
